@@ -23,9 +23,6 @@ export const siteConfig: SiteConfig = {
 	},
 	// Include view-transitions: https://docs.astro.build/en/guides/view-transitions/
 	includeViewTransitions: false,
-	webmentions: {
-		link: "https://webmention.io/astro-cactus.chriswilliams.dev/webmention",
-	},
 };
 
 // Used to generate links in both the Header & Footer.
