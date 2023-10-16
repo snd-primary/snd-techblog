@@ -29,7 +29,13 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: [...fontFamily.sans],
+				sans: [
+					"Helvetica Neue",
+					"Hiragino Kaku Gothic ProN",
+					"Hiragino Sans",
+					"Meiryo",
+					...fontFamily.sans,
+				],
 				serif: [...fontFamily.serif],
 			},
 			transitionProperty: {
