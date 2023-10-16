@@ -7,7 +7,7 @@ import prefetch from "@astrojs/prefetch";
 import remarkUnwrapImages from "remark-unwrap-images";
 import { remarkReadingTime } from "./src/utils/remark-reading-time";
 
-import vercel from "@astrojs/vercel/serverless";
+// import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -42,8 +42,8 @@ export default defineConfig({
 			exclude: ["@resvg/resvg-js"],
 		},
 	},
-	output: "server",
-	adapter: vercel(),
+	// output: "server",
+	// adapter: vercel(),
 });
 function rawFonts(ext: Array<string>) {
 	return {

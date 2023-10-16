@@ -1,5 +1,0 @@
-{
-	"runtime": "nodejs18.x",
-	"handler": "home/snd.webdev/prod/snd-techblog/dist/entry.mjs",
-	"launcherType": "Nodejs"
-}
