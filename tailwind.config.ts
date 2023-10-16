@@ -41,6 +41,9 @@ export default {
 			transitionProperty: {
 				height: "height",
 			},
+			gridTemplateRows: {
+				blogPost: `3fr 1fr`,
+			},
 			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 			// @ts-ignore
 			// Remove above once tailwindcss exposes theme type
