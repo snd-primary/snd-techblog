@@ -8,63 +8,64 @@ const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
-const cactusTech: Array<{ title: string; desc: string; href: string }> = [
-	{
-		title: "Astro",
-		desc: "Build fast websites, faster.",
-		href: "https://astro.build",
-	},
-	{
-		title: "Astro Assets",
-		desc: "Built-in optimized asset support.",
-		href: "https://docs.astro.build/en/guides/assets/",
-	},
-	{
-		title: "Tailwind CSS",
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
-		href: "https://tailwindcss.com",
-	},
-	{
-		title: "Markdown",
-		desc: "Simple and easy-to-use markup language.",
-		href: "https://www.markdownguide.org/",
-	},
-	{
-		title: "MDX",
-		desc: "Markdown for the component era.",
-		href: "https://mdxjs.com/",
-	},
-	{
-		title: "Satori",
-		desc: "Generating png Open Graph images for blog posts.",
-		href: "https://github.com/vercel/satori",
-	},
-	{
-		title: "Pagefind",
-		desc: "A fully static search library.",
-		href: "https://pagefind.app/",
-	},
-	{
-		title: "Astro Icon",
-		desc: "An easy to use Icon component for Astro.",
-		href: "https://github.com/natemoo-re/astro-icon#readme",
-	},
-];
+// const cactusTech: Array<{ title: string; desc: string; href: string }> = [
+// 	{
+// 		title: "Astro",
+// 		desc: "Build fast websites, faster.",
+// 		href: "https://astro.build",
+// 	},
+// 	{
+// 		title: "Astro Assets",
+// 		desc: "Built-in optimized asset support.",
+// 		href: "https://docs.astro.build/en/guides/assets/",
+// 	},
+// 	{
+// 		title: "Tailwind CSS",
+// 		desc: "Rapidly build modern websites without ever leaving your HTML.",
+// 		href: "https://tailwindcss.com",
+// 	},
+// 	{
+// 		title: "Markdown",
+// 		desc: "Simple and easy-to-use markup language.",
+// 		href: "https://www.markdownguide.org/",
+// 	},
+// 	{
+// 		title: "MDX",
+// 		desc: "Markdown for the component era.",
+// 		href: "https://mdxjs.com/",
+// 	},
+// 	{
+// 		title: "Satori",
+// 		desc: "Generating png Open Graph images for blog posts.",
+// 		href: "https://github.com/vercel/satori",
+// 	},
+// 	{
+// 		title: "Pagefind",
+// 		desc: "A fully static search library.",
+// 		href: "https://pagefind.app/",
+// 	},
+// 	{
+// 		title: "Astro Icon",
+// 		desc: "An easy to use Icon component for Astro.",
+// 		href: "https://github.com/natemoo-re/astro-icon#readme",
+// 	},
+// ];
 ---
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
+		<h1 class="title mb-6">Frontend技術ブログ</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, an example of how you can use this starter to create a personal
-			blog. If you want to know more about how you can customise me, add more posts, and make it
-			your own, click on one the github icon link below which will take you to my repo.
+			フロントエンドエンジニアにジョブチェンするぜ。<br />
+			 ということでJS/TS、React、NEXT.jsなどのフロントエンド技術をメインに、日々の学びや備忘録を投稿するブログサイトを作りました。<br
+			/>今は自分のためにやってますが、誰かにとっても有益な情報源になれるよう頑張ります。<br />
+			<small>since 2023.10.16</small>
 		</p>
 		<SocialList />
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
 		<h2 class="title mb-4 text-xl">Posts</h2>
-		<ul class="space-y-4 sm:space-y-2">
+		<ul class="space-y-4 text-sm sm:space-y-2">
 			{
 				allPostsByDate.map((p) => (
 					<li class="flex flex-col gap-x-2 sm:flex-row">
@@ -74,7 +75,7 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 			}
 		</ul>
 	</section>
-	<section class="mt-16">
+	<!-- <section class="mt-16">
 		<h2 class="title mb-4 text-xl">Technologies</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
@@ -87,11 +88,11 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 							class="cactus-link inline-block"
 						>
 							{title}
-						</a>: 
-						<p class="inline-block sm:mt-2">{desc}</p>
+						</a>
+						:<p class="inline-block sm:mt-2">{desc}</p>
 					</li>
 				))
 			}
 		</ul>
-	</section>
+	</section> -->
 </PageLayout>

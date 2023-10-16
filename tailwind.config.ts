@@ -30,6 +30,7 @@ export default {
 			fontFamily: {
 				// Add any custom fonts here
 				sans: [
+					"Zen Kaku Gothic Antique",
 					"Helvetica Neue",
 					"Hiragino Kaku Gothic ProN",
 					"Hiragino Sans",
