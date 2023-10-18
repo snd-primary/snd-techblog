@@ -1,11 +1,14 @@
 ---
 title: "Astro公式テーマがすごい"
-description: "Web開発・フロントエンドの学習を進めていくに当たって、今の自分ができることとできないことを整理していく記事です。"
+description: "Astro公式テーマ、AstroCuctusを使って技術ブログを作りました。技術ブログだし自分で実装しようと考えていたのですが..."
+---
+
 publishDate: "2023 10 18"
 coverImage:
-  src: "./cover.png"
-  alt: "Astro Cuctus"
+src: "./cover.png"
+alt: "Astro Cuctus"
 tags: ["astro", "ポエム"]
+
 ---
 
 どうも、無職です。
@@ -36,6 +39,10 @@ tags: ["astro", "ポエム"]
   <br />
   <a href="https://astro.build/themes/" target="_blank">Astro Themes</a>
   <br />
+
+### デプロイまでにかかった時間
+
+テーマをインストールしてからデプロイするまでは1.5時間程度とかなり爆速でした。この時間の殆どは後述するスタイルの調整なので、こだわりさえしなければもっと早くデプロイできると思います。
 
 ### スタイリング
 
