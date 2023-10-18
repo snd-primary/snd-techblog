@@ -1,14 +1,11 @@
 ---
 title: "Astro公式テーマがすごい"
 description: "Astro公式テーマ、AstroCuctusを使って技術ブログを作りました。技術ブログだし自分で実装しようと考えていたのですが、今はブログの実装よりも優先したい学習があるので既成テーマを導入することにしました。"
----
-
 publishDate: "2023 10 18"
 coverImage:
-src: "./cover.png"
-alt: "Astro Cuctus"
+  src: "./cover.png"
+  alt: "Astro Cuctus"
 tags: ["astro", "ポエム"]
-
 ---
 
 どうも、無職です。
