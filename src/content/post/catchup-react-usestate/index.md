@@ -1,7 +1,7 @@
 ---
 title: "useState()について学びを整理"
 description: "ReactのuseState()について、その概要と基本的な挙動をハンズオン形式でまとめている記事です。"
-publishDate: "2023 10 18"
+publishDate: "2023 10 19"
 tags: ["React", "学習記録"]
 ---
 
