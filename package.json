@@ -33,7 +33,7 @@
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/eslint": "^8.44.3",
-		"@types/gtag.js": "^0.0.16",
+		"@types/gtag.js": "^0.0.18",
 		"@typescript-eslint/eslint-plugin": "^6.7.4",
 		"@typescript-eslint/parser": "^6.7.4",
 		"astro-eslint-parser": "^0.16.0",
