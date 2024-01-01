@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -27,8 +27,8 @@ dependencies:
     specifier: ^5.0.2
     version: 5.0.2(astro@3.2.3)
   '@fontsource/zen-kaku-gothic-antique':
-    specifier: ^5.0.14
-    version: 5.0.14
+    specifier: ^5.0.17
+    version: 5.0.17
   astro:
     specifier: 3.2.3
     version: 3.2.3
@@ -1050,8 +1050,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/zen-kaku-gothic-antique@5.0.14:
-    resolution: {integrity: sha512-p0RdFNFmhfeOz7wjzC2ZzJboBYhzYngt5THzrRFRiQY5t4+RldNDB+SJTdFiTdJ9qjymTOd0B9M8t4v1fhU8vQ==}
+  /@fontsource/zen-kaku-gothic-antique@5.0.17:
+    resolution: {integrity: sha512-kL4/oOemqfHfLX1NGtROawkyWt+8dGfCIyF+J0GDWMf3IIPxBwAYwhmkTQsLm1+Z2lN6Gq/XXLQvwOvUViS3Gg==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.11:
